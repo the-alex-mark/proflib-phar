@@ -1,0 +1,15 @@
+{
+    "name": "the-alex-mark/proglib-phar-compiler",
+    "description": "Компиляция проекта в файл \".phar\"",
+    "version": "1.0",
+    "type": "library",
+    "minimum-stability": "stable",
+    "require": {
+        "composer/composer": "^2.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "ProgLib\\Phar\\": "src/"
+        }
+    }
+}
